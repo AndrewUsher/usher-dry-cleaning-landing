@@ -12,21 +12,21 @@ const splitItems = [
   {
     heading: "Dry Cleaning",
     imageAlt: "Features split 01",
-    imageSrc: require("./../../assets/images/features-split-image-01.png"),
+    imageSrc: require("./../../assets/images/features-split-image-01.jpg"),
     paragraph: `We use the most advanced dry-cleaning techniques and detergent, so your garments look better and last even longer.`,
     smallText: ""
   },
   {
     heading: "Household Items Cleaning",
     imageAlt: "Features split 02",
-    imageSrc: require("./../../assets/images/features-split-image-02.png"),
+    imageSrc: require("./../../assets/images/features-split-image-02.jpg"),
     paragraph: `Our professional equipment has the power to remove the toughest stains and the soft touch to handle items like comforters, curtains, delicate tablecloths and decorative pillows.`,
     smallText: "Household"
   },
   {
     heading: "Shoe Cleaning and Repair",
     imageAlt: "Features split 03",
-    imageSrc: require("./../../assets/images/features-split-image-03.png"),
+    imageSrc: require("./../../assets/images/features-split-image-03.jpg"),
     paragraph: `We can handle everything from pumps and boots to leather and suede. Bring your shoes to us for a regular shine, heel tip repair or sole replacement.`,
     smallText: "Shoes"
   }

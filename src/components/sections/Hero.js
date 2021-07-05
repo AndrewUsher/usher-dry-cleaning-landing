@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import classNames from 'classnames';
 import { SectionProps } from '../../utils/SectionProps';
 import ButtonGroup from '../elements/ButtonGroup';
@@ -24,17 +24,6 @@ const Hero = ({
   ...props
 }) => {
 
-  const [videoModalActive, setVideomodalactive] = useState(false);
-
-  const openModal = (e) => {
-    e.preventDefault();
-    setVideomodalactive(true);
-  }
-
-  const closeModal = (e) => {
-    e.preventDefault();
-    setVideomodalactive(false);
-  }   
 
   const outerClasses = classNames(
     'hero section center-content',
@@ -69,10 +58,10 @@ const Hero = ({
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
                   <Button tag="a" color="primary" wideMobile href="#">
-                    Get started
+                    Get In Touch
                     </Button>
                   <Button tag="a" color="dark" wideMobile href="#">
-                    View on Github
+                    Our Services
                     </Button>
                 </ButtonGroup>
               </div>
