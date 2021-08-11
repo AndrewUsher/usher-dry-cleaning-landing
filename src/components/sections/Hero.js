@@ -49,12 +49,12 @@ const Hero = ({
         <div className={innerClasses}>
           <div className="hero-content">
             <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-              Welcome To <span className="text-color-primary">Usher Dry Cleaners</span>
+              Welcome To <span className="text-color-primary">Usher Construction Services</span>
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-              Usher Dry Cleaners can professionally clean almost any fabric from the most delicate of silks to velvet, crepe, and other fine fabrics. 
-                </p>
+              Every project has unique needs and that is why you need an experienced contractor that knows how to get the job done right. Usher Construction Services has that experience.
+              </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
                   <Button tag="a" color="primary" wideMobile href="#">

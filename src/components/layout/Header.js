@@ -75,7 +75,7 @@ const Header = ({
             bottomDivider && "has-bottom-divider"
           )}
         >
-          Usher Dry Cleaners
+          Usher Construction Services
           {!hideNav && (
             <>
               <button
