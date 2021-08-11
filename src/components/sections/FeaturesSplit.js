@@ -10,25 +10,22 @@ const defaultProps = {
 
 const splitItems = [
   {
-    heading: "Dry Cleaning",
+    heading: "Lorem, ipsum dolor.",
     imageAlt: "Features split 01",
     imageSrc: require("./../../assets/images/features-split-image-01.jpg"),
-    paragraph: `We use the most advanced dry-cleaning techniques and detergent, so your garments look better and last even longer.`,
-    smallText: ""
+    paragraph: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis dicta quidem asperiores quos officia explicabo quaerat velit ex laudantium labore.`,
   },
   {
-    heading: "Household Items Cleaning",
+    heading: "Lorem, ipsum dolor.",
     imageAlt: "Features split 02",
     imageSrc: require("./../../assets/images/features-split-image-02.jpg"),
-    paragraph: `Our professional equipment has the power to remove the toughest stains and the soft touch to handle items like comforters, curtains, delicate tablecloths and decorative pillows.`,
-    smallText: "Household"
+    paragraph: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis dicta quidem asperiores quos officia explicabo quaerat velit ex laudantium labore.`,
   },
   {
-    heading: "Shoe Cleaning and Repair",
+    heading: "Lorem, ipsum dolor.",
     imageAlt: "Features split 03",
     imageSrc: require("./../../assets/images/features-split-image-03.jpg"),
-    paragraph: `We can handle everything from pumps and boots to leather and suede. Bring your shoes to us for a regular shine, heel tip repair or sole replacement.`,
-    smallText: "Shoes"
+    paragraph: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis dicta quidem asperiores quos officia explicabo quaerat velit ex laudantium labore.`,
   }
 ];
 
@@ -38,7 +35,6 @@ const SplitItem = ({
   imageFill = false,
   imageSrc,
   paragraph,
-  smallText
 }) => {
   return (
     <div className="split-item">
@@ -46,11 +42,6 @@ const SplitItem = ({
         className="split-item-content center-content-mobile reveal-from-left"
         data-reveal-container=".split-item"
       >
-        {smallText && (
-          <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-            {smallText}
-          </div>
-        )}
         <h3 className="mt-0 mb-12">{heading}</h3>
         <p className="m-0">{paragraph}</p>
       </div>

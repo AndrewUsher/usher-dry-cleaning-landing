@@ -72,8 +72,8 @@ const Hero = ({
                 className="has-shadow"
                 src={require('./../../assets/images/hero-image.jpg')}
                 alt="Hero"
-                width={896}
-                height={504} />
+                width={800}
+                height={300} />
           </div>
         </div>
       </div>
