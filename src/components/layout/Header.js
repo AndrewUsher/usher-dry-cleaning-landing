@@ -75,7 +75,7 @@ const Header = ({
             bottomDivider && "has-bottom-divider"
           )}
         >
-          Usher Construction Services
+          Usher Brothers Construction
           {!hideNav && (
             <>
               <button

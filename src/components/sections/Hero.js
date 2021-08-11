@@ -49,11 +49,11 @@ const Hero = ({
         <div className={innerClasses}>
           <div className="hero-content">
             <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-              Welcome To <span className="text-color-primary">Usher Construction Services</span>
+              Welcome To <span className="text-color-primary">Usher Brothers Construction</span>
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-              Every project has unique needs and that is why you need an experienced contractor that knows how to get the job done right. Usher Construction Services has that experience.
+              Every project has unique needs and that is why you need an experienced contractor that knows how to get the job done right. Usher Brothers Construction has that experience.
               </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
